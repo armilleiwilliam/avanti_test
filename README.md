@@ -3,6 +3,7 @@
 
 Clone the repository on your local then run
 - composer install
+- set up the env. file, just set the connection with your database
 - run "php artisan migrate:refresh --seed" (if you copy and paste this command from here it might not work, just type it)
 - npm install
 - npm run dev 
