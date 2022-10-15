@@ -16,21 +16,21 @@ The project is unfinished, I could have completed it if I had a bit of more time
 even if I took 5 more minutes to complete a bit more of the "edit" part.
 
 ## Factories:
-As instructed I have developed a seeders which trigger a factory creating 5 users, I have started creating a factory to 
+As instructed I have developed a seeder which trigger a factory creating 5 users, I have started creating a factory to 
 populate the item_todos table with dummmy data but as it was taking too long I had to interrupt, it does not work at the moment but 
 feel free to have a look at the unfinished work.
 
-## how it works
+## How it works
 If the above instructions are followed, you should be able to see the login page, in order to access pick any 
 email created randomly by the seeder in your database and use "password" as password. 
 
-## what's been created
+## What's been created
 Factories, Seeder, the Controller, Migrations and Models have been created as requested. I managed only to create the add 
 item form feature, I had started to develop the edit and the policy but then the time was up. The policy is not working 
 as desired just because I had not enough time to set it up properly, I am sure if I had a few more minutes I could have 
 made it work properly. 
 
-## env. file
+## Env. file
 The env file does not have particular settings, just set up the database connection. 
 
 
