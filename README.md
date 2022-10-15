@@ -9,16 +9,20 @@ Clone the repository on your local then run
 - npm run dev 
 - php artisan serve
 - click on the link provided
+- it might ask you to generate the App Key, just click on “Generate App Key” on the right hand side of the browser window
+and refresh the page
 
 "npm install and npm run dev" above are needed to compile the front end after creating the Breeze scaffolding, the authentication
 feature I have decided to use.
 
 The project is unfinished, I could have completed it if I had a bit of more time, but I tried to stick with the time limit
 even if I took 5 more minutes to complete a bit more of the "edit" part.
+If I had more time I have done way better: graphically, tide up the code a bit more, finished to develop the uncompleted 
+parts.
 
 ## Factories:
 As instructed I have developed a seeder which trigger a factory creating 5 users, I have started creating a factory to 
-populate the item_todos table with dummmy data but as it was taking too long I had to interrupt, it does not work at the moment but 
+populate the item_todos table with dummy data but as it was taking too long I had to interrupt, it does not work at the moment but 
 feel free to have a look at the unfinished work.
 
 ## How it works

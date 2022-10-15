@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\User;
 use App\Models\TodoItem;
+use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class UserPolicy
+class TodoItemPolicy
 {
     use HandlesAuthorization;
 
@@ -20,4 +20,11 @@ class UserPolicy
         //
     }
 
+    /**
+     * Can only view
+     */
+    public function update(User $user, TodoItem $todoItem)
+    {
+        return $user->id == $todoItem->user_id;
+    }
 }
