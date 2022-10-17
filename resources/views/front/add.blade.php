@@ -11,16 +11,18 @@
                 @include('layouts.success_messages')
 
                 <div class="p-6 bg-white border-b border-gray-200">
+                    <h1 class="text-center mb-3">Add item</h1>
+                    <hr />
                     <form action="{{ route("store_item")}}" method="POST">
                         @method('PUT')
                         @csrf
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Add Todo item</label>
+                            <label for="exampleInputEmail1">Subject</label>
                             <input type="text" class="form-control" id="subject" name="subject" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
+                            <label for="exampleInputPassword1">Description</label>
                             <textarea class="form-control"  id="subject" name="description" >
 
                             </textarea>
