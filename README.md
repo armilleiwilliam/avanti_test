@@ -18,8 +18,8 @@ feature I have decided to use.
 
 The project is unfinished, I could have completed it if I had a bit of more time, but I tried to stick with the time limit
 even if I took 5 more minutes to complete a bit more of the "edit" part.
-If I had more time I have done way better: graphically, tide up the code a bit more, finished to develop the uncompleted 
-parts.
+If I had more time I would have done it way better: graphically, tiding up the code a bit more, finishing to develop the uncompleted 
+parts, reviewing everything.
 
 ## How it works
 If the above instructions are followed, you should be able to see the login page, in order to access pick any
