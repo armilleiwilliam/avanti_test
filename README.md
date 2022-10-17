@@ -21,14 +21,15 @@ even if I took 5 more minutes to complete a bit more of the "edit" part.
 If I had more time I have done way better: graphically, tide up the code a bit more, finished to develop the uncompleted 
 parts.
 
+## How it works
+If the above instructions are followed, you should be able to see the login page, in order to access pick any
+email created randomly by the seeder in your database and use "password" as password to access.
+
 ## Factories:
 As instructed I have developed a seeder which trigger a factory creating 5 users, I have started creating a factory to 
 populate the item_todos table with dummy data but as it was taking too long I had to interrupt, it does not work at the moment but 
 feel free to have a look at the unfinished work.
 
-## How it works
-If the above instructions are followed, you should be able to see the login page, in order to access pick any 
-email created randomly by the seeder in your database and use "password" as password. 
 
 ## What's been created
 Factories, Seeder, the Controller, Migrations and Models have been created as requested. I managed only to create the add 
