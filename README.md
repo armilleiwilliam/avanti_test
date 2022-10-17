@@ -11,6 +11,7 @@ Clone the repository on your local then run
 - click on the link provided
 - it might ask you to generate the App Key, just click on “Generate App Key” on the right hand side of the browser window
 and refresh the page
+- click on login
 
 "npm install and npm run dev" above are needed to compile the front end after creating the Breeze scaffolding, the authentication
 feature I have decided to use.
